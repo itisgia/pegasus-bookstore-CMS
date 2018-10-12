@@ -4,39 +4,48 @@
         <meta charset="utf-8">
         <title>Pegasus Books</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,800" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,800" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Cormorant+Garamond|Poppins:300,400,500,600,800" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar  topnav navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Pegasus</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.php">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+		<div class="name">
+			<a href="index">Pegasus Bookshop <i class="fas fa-book-open"></i></a>
+		</div>
+		<div class="mobileNavBar">
+			<div class="menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class=" menu icons">
+				<i class="fas fa-search"></i>
+				<i class="far fa-user"></i>
+				<i class="fas fa-shopping-cart"></i>
+			</div>
+		</div>
+		<div class="entry">
+			<div class="welcome">
+				<p class="pegasus">Pegasus bookshop</p>
+				<p class="little">Books and Other Necessties</p>
+			</div>
+        </div>
+		<div class="description">
+			<img src="img/enterance.jpg" alt="books">
+		</div>
+		<div class="anoutPegasus">
+			<h2>About Pegasus Bookshop</h2>
+			<p>Since 1979, Pegasus Bookshop has brought pleasure to book-lovers in Wellington. As a small independent bookseller we aim to stock quality books at reasonable prices.</p>
+		</div>
+		<div class="books">
+			<img src="img/event.png" alt="">
+			<p class="head">Forthcoming Events & Book Clubs</p>
 
-            <div class="entry">
-                <p>Hello</p>
-            </div>
+		</div>
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
         <script type="text/javascript" src="js/script.js">
 
         </script>

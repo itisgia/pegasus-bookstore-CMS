@@ -4,11 +4,20 @@
 	box-sizing: border-box;
 	// font-family: 'Roboto', sans-serif;
 }
+
+html {
+	-webkit-font-smoothing: antialiased;
+	    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
 div {
 	width: 100vw;
 	img {
 		width: 100%;
 	}
+}
+.header {
+	position: fixed;
+	top: 0;
 }
 
 .name {
@@ -28,6 +37,8 @@ div {
 	}
 }
 .mobileNavBar{
+	background-color: white;
+	padding-bottom: 1%;
 	.menu {
 		width: 17%;
 		cursor: pointer;
@@ -87,7 +98,7 @@ span {
 
 	}
 }
-.anoutPegasus {
+.anout {
 	margin: 40px 0px;
 	font-weight: 300;
 	padding: 0px 30px;
@@ -108,10 +119,10 @@ span {
 		text-align: center;
 	}
 }
-.books {
+.booksWrapper {
 	padding:60px 0px;
 	background-color: hsl(352, 69%, 34%);
-	img {
+	.speaker{
 
 		height: 60px;
 		display: block;
@@ -121,6 +132,7 @@ span {
 	}
 	.head {
 		margin-top: 3%;
+		margin-bottom: 5%;
 		font-family: 'Poppins', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 5px;
@@ -130,5 +142,74 @@ span {
 		font-weight: 600;
 
 	}
+	.booksAndEvents {
+		padding-bottom: 5%;
+	}
+	.poster ,.eventsInfo,.seeMore {
 
+		padding: 0px 34px;
+		color: #fff;
+
+	}
+	.eventsInfo {
+		margin-top: 3%;
+		p ,a{
+			line-height: 1.3em;
+			font-family: 'Cormorant Garamond', serif;
+			font-size: 18px;
+			font-weight: 500;
+			color: #fff;
+			text-decoration: none;
+
+
+		}
+		.nameOfEvent {
+			padding-top: 10px;
+			font-size: 30px;
+			font-weight: 100;
+			font-style: italic;
+			line-height: 31px;
+			font-family: 'Cormorant Garamond', serif;
+			padding-bottom: 3%;
+		}
+		a {
+			i {
+				margin-left: 10px;
+			}
+		}
+	}
+	.seeMore {
+		p {
+			font-family: 'Cormorant Garamond', serif;
+			text-align: center;
+			border: 1px solid #fff;
+			padding: 10px 20px;
+		}
+
+	}
+}
+
+.buyWrapper {
+	margin-top: 19%;
+	img {
+		height: 60px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 24%;
+	}
+	.toBuy {
+		padding-top: 4px;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		letter-spacing: 4px;
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 1;
+	}
+}
+
+.contactUs {
+	text-decoration: underline;
+	// line-height: 37px;
 }

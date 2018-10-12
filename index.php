@@ -73,12 +73,24 @@
 
 		</div>
 		<div class="buyWrapper">
-			<img src="img/tobuy.png" alt="icon image">
+			<img class="buyIcon"src="img/tobuy.png" alt="icon image">
 			<p class="toBuy">TO BUY</p>
 
 			<div class="anout">
 				<h2>Books & Other Neccessities</h2>
 				<p>We are pleased to offer a small selection of books and other necessities on our website.  If there is something in particular you are looking for, please <a class="contactUs">contact us directly</a></p>
+			</div>
+			<div class="bookParts">
+				<img src="img/cate.jpg" alt="cate's book">
+				<p class=title>Through the Breaking</p>
+			</div>
+			<div class="bookParts">
+				<img src="img/refe.jpg" alt="cate's book">
+				<p class=title>The Reef</p>
+			</div>
+			<div class="bookParts">
+				<img src="img/hours.jpg" alt="cate's book">
+				<p class=title>Book of Hours</p>
 			</div>
 
 		</div>

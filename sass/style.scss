@@ -79,7 +79,7 @@ span {
 .entry {
 	height: 33vh;
 	.welcome {
-		margin-top: 29%;
+		margin-top: 43%;
 		p {
 			font-family: 'Poiret One', cursive !important;
 			text-align: center;
@@ -145,7 +145,7 @@ span {
 	.booksAndEvents {
 		padding-bottom: 5%;
 	}
-	.poster ,.eventsInfo,.seeMore {
+	.poster ,.eventsInfo,.seeMore,.head {
 
 		padding: 0px 34px;
 		color: #fff;
@@ -191,7 +191,7 @@ span {
 
 .buyWrapper {
 	margin-top: 19%;
-	img {
+	.buyIcon{
 		height: 60px;
 	    display: block;
 	    margin-left: auto;
@@ -212,4 +212,19 @@ span {
 .contactUs {
 	text-decoration: underline;
 	// line-height: 37px;
+}
+.bookParts {
+	padding: 0px 34px;
+	margin-top: 3%;
+	img {
+		height: 400px;
+	}
+	p {
+		margin-top: 2%;
+		// font-family: 'Cormorant Garamond', serif;
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		letter-spacing: 0.9px;
+		line-height: 20px;
+	}
 }

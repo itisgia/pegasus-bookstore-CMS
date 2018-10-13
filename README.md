@@ -1,1 +1,0 @@
-# pegasus-bookstore-CMS

@@ -12,6 +12,14 @@ div {
   div img {
     width: 100%; }
 
+h2 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.5;
+  padding-bottom: 4%; }
+
 .header {
   position: fixed;
   top: 0; }
@@ -81,13 +89,6 @@ span {
   margin: 40px 0px;
   font-weight: 300;
   padding: 0px 30px; }
-  .anout h2 {
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 1.5;
-    padding-bottom: 4%; }
   .anout p {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
@@ -145,15 +146,15 @@ span {
     border: 1px solid #fff;
     padding: 10px 20px; }
 
-.buyWrapper {
+.apply {
   margin-top: 19%; }
-  .buyWrapper .buyIcon {
+  .apply .toIcon {
     height: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 24%; }
-  .buyWrapper .toBuy {
+  .apply .toElement {
     padding-top: 4px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -176,5 +177,79 @@ span {
     font-size: 15px;
     letter-spacing: 0.9px;
     line-height: 20px; }
+
+.authour, .readMore {
+  text-align: inherit !important;
+  font-weight: bold !important;
+  font-size: 18px !important; }
+
+.footerWrapper {
+  padding: 0px 34px;
+  background-color: black; }
+  .footerWrapper p {
+    color: white;
+    line-height: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px; }
+  .footerWrapper h2 {
+    color: #ffffff;
+    padding-top: 9%; }
+  .footerWrapper form {
+    display: flex;
+    padding-bottom: 10%;
+    margin: 0 auto; }
+  .footerWrapper input {
+    padding: 0px 30px; }
+  .footerWrapper input, .footerWrapper button {
+    margin: 0; }
+  .footerWrapper button {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 20px; }
+  .footerWrapper .iconWrapper {
+    width: 48%;
+    padding-bottom: 10%; }
+  .footerWrapper i {
+    color: white;
+    font-size: 4em;
+    margin-right: 10%;
+    text-align: center; }
+
+.bookshop {
+  padding: 0px 34px;
+  padding-bottom: 12%;
+  padding-top: 8%;
+  background-color: white; }
+  .bookshop i {
+    font-size: 30px;
+    padding-bottom: 3%; }
+  .bookshop p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; }
+  .bookshop .addressInfo {
+    padding-bottom: 5%;
+    width: 100%; }
+  .bookshop .week {
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%; }
+  .bookshop .times {
+    padding-bottom: 16px;
+    width: 100%; }
+
+.copyright {
+  background-color: #911B2A;
+  padding: 80px 0px; }
+  .copyright .conditions {
+    width: 80%; }
+  .copyright a, .copyright p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    text-align: center; }
+  .copyright p {
+    padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */

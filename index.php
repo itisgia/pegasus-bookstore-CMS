@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Pegasus Books</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Cormorant+Garamond|Poppins:300,400,500,600,700,800" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-		<div class="header">
-			<div class="name">
-				<a href="index.php">Pegasus Bookshop <i class="fas fa-book-open"></i></a>
-			</div>
-			<div class="mobileNavBar">
-				<div class="menu">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div class=" menu icons">
-					<i class="fas fa-search"></i>
-					<i class="far fa-user"></i>
-					<i class="fas fa-shopping-cart"></i>
-				</div>
-			</div>
-		</div> -->
+    <?php require("templates/head.php") ?>
+    <?php require("templates/burger.php") ?>
 		<div class="entry">
 			<div class="welcome">
 				<p class="pegasus">Pegasus bookshop</p>
@@ -107,54 +81,7 @@
             </div>
         </div>
 
-        <footer>
-             <div class="footerWrapper">
-                <h2>Join Our Mailing List</h2>
-                <form class="" action="#" method="post">
-                    <input name="emailJoin" id="inputJoinEmail" type="text" value="" class="medium" tabindex="1" placeholder="Enter your email address" aria-required="true" aria-invalid="false">
-                    <button type="submit" name="button">Submit</button>
-                </form>
-                <p>If you would like to hear about our forthcoming events, please enter your details in the above form. We'll send you an email a couple of times a month and we won't pass your details on to anyone else.</p>
-                <h2>Follow Us</h2>
-                <div class="iconWrapper">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                </div>
-            </div>
-            <div class="bookshop">
-
-                <h2>Pegasus Bookshop</h2>
-                <div class="addressInfo">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p class="address">204 Left Bank Cuba Mall <br>Te Aro<br>Wellington, New Zealand</p>
-                    <p><br>(+64) 04-384-4733</p>
-                </div>
-
-                <h2>We Are Open</h2>
-                <div class="times">
-                    <p class="week">Weekdays:</p>
-                    <p>Friday: 10AM–10PM </p>
-                    <p class="week">Weekends</p>
-                    <p>Saturday: 10:30AM–8PM</p>
-                    <p>Saturday:10:30AM–8PM</p>
-                </div>
-                <h2>Email Enquiries</h2>
-                <p class="mAddress">pegasusbooksnz@gmail.com</p>
-            </div>
-            <div class="copyright">
-                <div class="conditions">
-                    <a href="#">Terms & Conditions</a>
-                    <a href="#"> | Privacy Policy</a>
-                    <a href="#"> | Delivery Information</a>
-                    <p>© PEGASUS BOOKSHOP</p>
-
-                </div>
-
-
-            </div>
-
-
-        </footer>
+        <?php require("templates/footer.php") ?>
 
 
         <script type="text/javascript" src="js/script.js"></script>
